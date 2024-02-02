@@ -11,32 +11,6 @@
  *
  */
 
-//!Answer:
-// function makeUser(username, email) {
-//     const user = {};
-  
-//     user.name = username;
-//     user.emailAddress = email;
-  
-//     user.info = function () {
-//       const { name, emailAddress } = this;
-//       return `user ${name} has this email : ${emailAddress}`;
-//     };
-  
-//     user.login = function () {
-//       return `${this.name} has just logged in`;
-//     };
-  
-//     user.email = function () {
-//       return ` the user email is : ${this.emailAddress}`;
-//     };
-  
-//     return user;
-//   }
-// console.log(makeUser("f","www","info")); 
-
-
-// console.log("pp");
 
 function createPerson(name,age,profession) {
   let objPerson={}
